@@ -1,0 +1,101 @@
+.header1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    padding: 30px;
+    z-index: 3;
+}
+
+.left {
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.right {
+    font-size: 20px;
+    color: aliceblue;
+
+}
+
+.container {
+    background-image: url("/Users/shehramali/Desktop/Web Projects/architect.jpg");
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    position: relative; 
+    z-index: 2;
+    margin: 0px;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+.head{
+    padding: 20px;
+    font-size: large;
+}
+
+.pics{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+
+}
+
+
+.pics_size{
+    width: 20%;
+    height: 220px;
+}
+@media screen and (max-width :992px ){
+    .pics{
+        width: 45%;
+
+    }
+    
+}
+@media screen and (max-width :600px ){
+    .pics{
+        width: 95%;
+        
+
+    }
+    
+}
+.center_name{
+    padding: 30px;
+}
+
+.last_img {
+    width: 100%;
+    height: 600px; 
+    position: relative; 
+    z-index: 1; 
+}
+
+.footer {
+    background-color: black;
+    color: aliceblue;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    z-index: 2; 
+    clear: both;
+    margin-top: 150px;
+}
+
